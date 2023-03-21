@@ -22,7 +22,7 @@ browser.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleW
 
 browser.set_handle_refresh(False)
 
-url = 'https://free.facebook.com/login.php'
+url = 'https://m.facebook.com/login.php'
 
 def clear():
 
@@ -218,7 +218,7 @@ print("\033[1;37;40m")
 
 cid = str(input())
 
-curl = 'https://free.facebook.com/messages/t/' + str(cid)
+curl = 'https://m.facebook.com/messages/t/' + str(cid)
 
 print("\033[1;33;40m", end = "")
 
